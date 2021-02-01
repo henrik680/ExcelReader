@@ -13,4 +13,5 @@ def openExelUrl(url):
 
 fileUrl = "http://epi6.energimyndigheten.se/SharePoint/Eugen/Godkända anläggningar.xlsx"
 df = openExelUrl(fileUrl)
+
 print(df.head(n=10))
